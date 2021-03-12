@@ -42,10 +42,10 @@ export default function ProductDetail () {
         <Breadcrumb categories={categories} />
         <div className="Product">
             <div className={'Product__detail'}>
-                <div className={'Product__image-container'}>
+                <div className={'Product__detail-image'}>
                     <img src={'https://picsum.photos/680'} className={'Product__image'} alt={'Imagen del producto'} />
                 </div>
-                <div className={'Product__info-container'}>
+                <div className={'Product__detail-info'}>
                     <div className={'Product__info-stats'}>
                         { productStat }
                     </div>
@@ -54,7 +54,7 @@ export default function ProductDetail () {
                     </div>
                     <div className={'Product__info-price'}>
                         { product.price }
-                        <span className="Product__info-decimal">
+                        <span className="Product__price-decimal">
                             00
                         </span>
                     </div>

@@ -31,10 +31,10 @@ export default function ProductCard ({ product }) {
     return(
         <div className={'Product__card-container'} onClick={(e) => { onViewProduct() }}>
             <div className={'Product__card'}>
-                <div className={'Product__image-container'}>
+                <div className={'Product__card-image'}>
                     <img src={product.image} className={'Product__image'} alt={'Producto'} />
                 </div>
-                <div className={'Product__detail'}>
+                <div className={'Product__card-detail'}>
                     <div className="Product__detail-header">
                         <div className={'Product__detail-price'}>
                             {productHeader}

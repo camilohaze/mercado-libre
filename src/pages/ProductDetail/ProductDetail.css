@@ -9,24 +9,24 @@
     padding: 16px;
 }
 
-.Product .Product__detail {
+.Product__detail {
     display: flex;
     flex-direction: row;
     flex: 0 0 100%;
     max-width: 100%;
 }
 
-.Product .Product__image-container {
+.Product__detail .Product__detail-image {
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
 }
 
-.Product .Product__image {
+.Product__detail-image .Product__image {
     width: 100%;
     border-radius: 0;
 }
 
-.Product .Product__info-container {
+.Product__detail-info {
     display: flex;
     flex-direction: column;
     flex: 0 0 33.333333%;
@@ -34,36 +34,36 @@
     padding: 0 16px;
 }
 
-.Product .Product__info-stats {
+.Product__detail-info .Product__info-stats {
     font-size: 14px;
     margin-bottom: 16px;
     padding-top: 32px;
     color: #333333;
 }
 
-.Product .Product__info-title {
+.Product__detail-info .Product__info-title {
     color: #333333;
     font-size: 24px;
     font-weight: bold;
 }
 
-.Product .Product__info-price {
+.Product__detail-info .Product__info-price {
     color: #333333;
     font-size: 46px;
     padding: 32px 0;
 }
 
-.Product .Product__info-decimal {
+.Product__info-price .Product__price-decimal {
     position: relative;
     top: -0.4em;
     font-size: 0.63em;
 }
 
-.Product .Product__info-buy {
+.Product__detail-info .Product__info-buy {
     padding-right: 32px;
 }
 
-.Product .Product__info-button {
+.Product__info-buy .Product__info-button {
     width: 100%;
     background-color: #3483Fa;
     font-size: 16px;
@@ -73,11 +73,11 @@
     padding: 16px;
 }
 
-.Product .Product__info-button:focus {
+.Product__info-buy .Product__info-button:focus {
     outline: -webkit-focus-ring-color auto 0px;
 }
 
-.Product .Product__description {
+.Product__description {
     display: flex;
     flex-direction: column;
     flex: 0 0 66.666667%;
@@ -85,13 +85,13 @@
     padding: 0 0 0 32px;
 }
 
-.Product .Product__description-title {
+.Product__description .Product__description-title {
     color: #333333;
     font-size: 28px;
     padding: 32px 0;
 }
 
-.Product .Product__description-content {
+.Product__description .Product__description-content {
     font-size: 16px;
     color: #999999;
 }
