@@ -1,0 +1,12 @@
+.Result {
+    display: flex;
+    flex-direction: column;
+}
+
+.Result__items {
+    background-color: #FFF;
+    border-radius: 4px;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    margin-left: 8.333333%;
+}
