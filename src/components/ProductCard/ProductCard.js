@@ -1,6 +1,14 @@
 import './ProductCard.css';
 
+import { useHistory } from 'react-router-dom';
+
 export default function ProductCard ({ product }) {
+    const history = useHistory();
+
+    const onViewProduct = () => {
+        history.push('items/12345');
+    };
+
     let productHeader;
 
     if (product.shipping) {
@@ -21,7 +29,7 @@ export default function ProductCard ({ product }) {
     }
 
     return(
-        <div className={'Product__card-container'}>
+        <div className={'Product__card-container'} onClick={(e) => { onViewProduct() }}>
             <div className={'Product__card'}>
                 <div className={'Product__image-container'}>
                     <img src={product.image} className={'Product__image'} alt={'Producto'} />
