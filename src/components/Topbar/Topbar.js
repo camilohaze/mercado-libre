@@ -6,7 +6,7 @@ export default function Topbar () {
     const history = useHistory();
 
     const onSearch = () => {
-        history.push('items?search=');
+        history.push('/items?search=');
     };
 
     return(

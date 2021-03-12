@@ -6,7 +6,7 @@ export default function ProductCard ({ product }) {
     const history = useHistory();
 
     const onViewProduct = () => {
-        history.push('items/12345');
+        history.push('/items/12345');
     };
 
     let productHeader;
